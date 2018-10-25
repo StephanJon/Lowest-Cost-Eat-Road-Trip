@@ -1,0 +1,9 @@
+SFWRENG 2XB3
+
+Stephanus Brian Jonatan
+
+All work submitted is my individual work, and the appropriate
+references to code not belonging to me have been made - 2018-03-31
+
+The junit test for DFS and BFS is under the package graph and is
+called testDFSBFS.java

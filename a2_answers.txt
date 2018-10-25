@@ -1,0 +1,26 @@
+3.1) A directional graph (digraph) and an edge weighted digraph will be used. 
+Each node will represent an existing city in "USCities.csv" and the edges 
+represent a path from a city, A, to another city, B. Using the digraph, a
+path from Boston to Minneapolis can be computed by DFS and BFS. By using the
+connectedcities.txt, an adjacency list can be created for each city/node and
+edges can then be added passed off of the adjacency list. An edge weighted
+digraph will be used to solve for the lowest cost problem from a trip from 
+Boston to Minneapolis by having each weight be represented by the cost of a
+meal, and by using Dijkstra's algorithm.
+ 
+
+3.2) Breadth-First Search resulted in a shorter path from Boston to Minneapolis than 
+Depth-First Search. This is because Breadth-First Search searches each connected
+city from the source in levels (i.e. the connected cities from the source will
+all be checked for their connected cities, {A}, before checking the connected cities 
+of {A}). This allows Breadth-First Search to find find a path from s to v, and
+guaranteeing that it will be the shortest path from s to v. Therefore, no 
+matter how many cities are added, Breadth-First Search will always display
+a shorter path from s to v than Depth-First Search.
+
+
+3.4) The complexity of the shortest path algorithm used is Elg(V) where
+E = # of edges and V = # vertices. This is because the time complexity 
+of the priority queue used (binary heap) is lg(V). Binary heap is then 
+implemented at every edge in the graph resulting in a Elg(V) time 
+complexity.

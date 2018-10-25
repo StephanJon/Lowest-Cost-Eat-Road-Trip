@@ -1,0 +1,10 @@
+DFS: BOSTON, NEW YORK CITY, PITTSBURGH, COLUMBUS, CHICAGO, ST. LOUIS, KANSAS CITY, MINNEAPOLIS
+
+BFS: BOSTON, NEW YORK CITY, PITTSBURGH, COLUMBUS, CHICAGO, MINNEAPOLIS
+
+---CITY---               ---MEAL---                                                            ---COST---                                        
+NEW YORK CITY            Double Cheeseburger - Meal                                            $4.38                                             
+PITTSBURGH               Quarter Pounder with Cheese - Meal                                    $5.49                                             
+COLUMBUS                 Original Chicken Sandwich - Meal                                      $6.69                                             
+CHICAGO                  Tendercrisp Chicken Sandwich - Meal                                   $7.39                                             
+MINNEAPOLIS                                                                                    $6.0                                              
